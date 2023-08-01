@@ -1,0 +1,55 @@
+Contents:
+Introduction to functions
+function & return keyword
+types of function
+Arrow Functions ( ES6 Intro )
+**-------------------------------------**
+Functions:- 
+=> Set of statements that performs specific task
+Syntax:-
+function functionname(parameter)
+{
+    //set of statements that performs specific task
+}
+functionname(); //function call
+
+//example:-
+function mul(a,b){
+    console.log(a*b);
+}
+mul(1,2);
+=>function always have a return value
+=>Return:- To reduce the number of times code get executed
+=>function name is userdefined
+=>If we print without return it shows undefined
+=>Function is used for DRY(Don't Repeat Yourself)codes
+=>One function will have only one return keyword
+
+Example:- Print the odd numbers in an array
+
+
+***------------------------------------------------***
+Types of Function
+1. Anonyomus Function ( a function without name)
+syntax: 
+function(parameter)
+{
+ //set of statement
+}
+() //function call
+
+2.IIFE (Immediately Invoked Function Expression)
+(function)(functioncall)
+
+3.Arrow Function (ES6) 
+=>Introduced in ES6
+=> It has =>(arrow) keyword and return keyword is must.
+function a()
+{
+
+}
+a()
+this has been overcomed as 
+ const a = (parameter)=>{
+
+ }
