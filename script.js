@@ -25,8 +25,8 @@ function odd(arr) {
   }
   return result;
 }
-odd(arr);
-console.log(result);
+console.log(odd(arr));
+
 
 //function without parameter
 function greet() {
@@ -49,6 +49,7 @@ var odd = function (arr) {
 console.log(odd(arr));
 
 //IIFE (Immediately Invoked Function Expression)
+//Example :-Print the odd numbers in an array
 (function odd(arr) {
   var result = [];
   for (var i = 0; i < arr.length; i++) {
@@ -60,6 +61,7 @@ console.log(odd(arr));
 })([12, 13, 14, 15, 16]);
 
 //Arrow Function (ES6)
+//Example :-Print the odd numbers in an array
 const od = (arr) => {
   var result = [];
   for (var i = 0; i < arr.length; i++) {
